@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>WebDev Starter Hub</title>
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background:linear-gradient(135deg,#dff7f2,#ffffff);
+      color:#222;
+      transition:0.4s;
+    }
+
+    header{
+      background:#00897b;
+      color:white;
+      padding:20px;
+      text-align:center;
+      box-shadow:0 3px 8px rgba(0,0,0,0.2);
+    }
+
+    header h1{
+      font-size:40px;
+      margin-bottom:10px;
+    }
+
+    header p{
+      font-size:18px;
+    }
+
+    nav{
+      display:flex;
+      justify-content:center;
+      gap:20px;
+      background:#00695c;
+      padding:12px;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    nav a:hover{
+      color:#ffd54f;
+    }
+
+    .container{
+      width:90%;
+      margin:auto;
+      padding:40px 0;
+    }
+
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:25px;
+    }
+
+    .card{
+      background:white;
+      padding:25px;
+      border-radius:15px;
+      box-shadow:0 4px 12px rgba(0,0,0,0.15);
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-8px);
+    }
+
+    .card h2{
+      color:#00796b;
+      margin-bottom:15px;
+    }
+
+    .card p{
+      line-height:1.7;
+    }
+
+    .btn-section{
+      text-align:center;
+      margin-top:40px;
+    }
+
+    button{
+      padding:12px 25px;
+      margin:10px;
+      border:none;
+      border-radius:8px;
+      font-size:16px;
+      cursor:pointer;
+      transition:0.3s;
+    }
+
+    .learn-btn{
+      background:#009688;
+      color:white;
+    }
+
+    .learn-btn:hover{
+      background:#00695c;
+    }
+
+    .dark-btn{
+      background:#222;
+      color:white;
+    }
+
+    .dark-mode{
+      background:#121212;
+      color:white;
+    }
+
+    .dark-mode .card{
+      background:#1f1f1f;
+      color:white;
+    }
+
+    .dark-mode nav{
+      background:#111;
+    }
+
+    .clock{
+      text-align:center;
+      margin-top:30px;
+      font-size:22px;
+      font-weight:bold;
+      color:#00796b;
+    }
+
+    footer{
+      margin-top:50px;
+      background:#00897b;
+      color:white;
+      text-align:center;
+      padding:18px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>WebDev Starter Hub</h1>
+    <p>Learn HTML, CSS & JavaScript Basics Interactively</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">HTML</a>
+    <a href="#">CSS</a>
+    <a href="#">JavaScript</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="container">
+
+    <div class="cards">
+
+      <div class="card">
+        <h2>HTML</h2>
+        <p>
+          HTML stands for HyperText Markup Language.It is the standard language used to create the structure of webpages.</p>
+<p style="font-weight:bold;">
+HTML describes:-
+<p>
+->Text
+</p>
+<p>
+->Images
+</p>
+<p>
+->Links
+</p>
+<p>
+->Forms
+</p>
+<p>
+->Tables
+</p>
+<p>
+->Multimedia content
+</p>
+<p style="font-weight:bold;">
+Features of HTML:-
+</p>
+<p>
+->Easy to Learn.
+</p>
+<p>
+->Platform Independent.
+</p>
+<p>
+->Support  Multimedia.
+</p>
+<p>
+->Used for webpage structure.
+</p>
+<p>
+->Works with CSS and Javascript.
+</p>
+<a href=https://en.wikipedia.org/wiki/HTML target="_self">
+<p>Click me</p>
+</a>
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>CSS</h2>
+        <p>
+          CSS  stands for Cascading style sheets.It is used for styling and designing webpages.
+</p>
+<p style="font-weight:bold;">
+CSS controls:-
+</p>
+<p>
+->Colors
+</p>
+<p>
+->Fonts
+</p>
+<p>
+->Layouts
+</p>
+<p>
+->Animations
+</p>
+<p>
+->Responsive Design
+</p>
+<p style="font-weight:bold;">
+Features of CSS:-
+</p>
+<p>
+->Seperates design from structure.
+</p>
+<p>
+->Reduces code repetition.
+</p>
+<p>
+->Improves webpage appearance.
+</p>
+<p>
+->Supports responsive layouts.
+</p>
+<a href=https://en.wikipedia.org/wiki/CSS target="_self">
+<p>Click me</p>
+</a>
+                  </p>
+      </div>
+
+      <div class="card">
+        <h2>JavaScript</h2>
+        <p>Javascript is a programming language used to make webpages interactive and dynamic.It can create alerts, dark mode,quizzes, sliders, and dynamic content.In this webpage javascript has created a alert message and Toggle Dark Mode option.
+</p>
+<p style="font-weight:bold;">
+Uses:-
+</p>
+<p>
+->Form Validation
+</p>
+<p>
+->Interactive
+</p>
+<p>
+->Games
+</p>
+<p>
+->Animations
+</p>
+<p>
+->API handling
+</p>
+<p>
+->Dynamic content updates
+</p>
+<p style="font-weight:bold;">
+Features of Javascript:-
+</p>
+<p>
+->LightWeight
+</p>
+<p>
+->Fast Execution
+</p>
+<p>
+->Object-oriented
+</p>
+<p>
+->Event-driven
+</p>
+<p>
+->Cross-platform
+</p>
+<a href=https://en.wikipedia.org/wiki/JavaScript target="_self">
+<p>Click me</p>
+</a>
+        </p>
+      </div>
+
+    </div>
+
+    <div class="btn-section">
+
+      <button class="learn-btn" onclick="showMessage()">
+        Learn More
+      </button>
+
+      <button class="dark-btn" onclick="darkMode()">
+        Toggle Dark Mode
+      </button>
+
+    </div>
+
+    <div class="clock" id="clock">
+      Loading Time...
+    </div>
+
+  </div>
+
+  <footer>
+    © 2026 WebDev Starter Hub | Designed for Internship Task
+  </footer>
+
+  <script>
+
+    function showMessage(){
+      alert("Welcome to the Basics of Web Development!");
+    }
+
+    function darkMode(){
+      document.body.classList.toggle("dark-mode");
+    }
+
+    function updateClock(){
+
+      let now = new Date();
+
+      let time =
+        now.toLocaleTimeString();
+
+      document.getElementById("clock").innerHTML =
+        "Current Time : " + time;
+    }
+
+    setInterval(updateClock,1000);
+
+  </script>
+
+</body>
+</html>
